@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pendaftaranberhasil"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/txt_nama_dpn"
+        android:hint="@string/NamaDepan"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/data1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_nama_blkng"
+        android:hint="@string/NamaBelakang"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/data2"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_ttl"
+        android:hint="@string/TTL"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/data3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_alamat"
+        android:hint="@string/Alamat"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/data4"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_jk"
+        android:hint="@string/JenisKelamin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/data5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_agama"
+        android:hint="@string/Agama"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/data6"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_telp"
+        android:hint="@string/Telepon"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/data7"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txt_email"
+        android:hint="@string/Email"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/data8"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonexit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/Kembali" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/Selesai" />
+    </LinearLayout>
+
+</LinearLayout>

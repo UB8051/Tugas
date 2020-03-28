@@ -95,7 +95,8 @@
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:hint="@string/TanggalLahir"
-                        android:inputType="datetime" />
+                        android:inputType="date" />
+
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -122,20 +123,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="@string/JeniaKelamin" />
+                android:text="@string/JenisKelamin" />
 
             <RadioGroup
+                android:id="@+id/Jns"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/lk"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/LakiLaki" />
 
                 <RadioButton
+                    android:id="@+id/pr"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="90dp"
@@ -149,18 +153,21 @@
                 android:text="@string/Agama" />
 
             <RadioGroup
+                android:id="@+id/first_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/type1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1056964608.000000"
-                    android:text="@string/islam" />
+                    android:text="@string/Islam" />
 
                 <RadioButton
+                    android:id="@+id/type2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1056964608.000000"
@@ -168,17 +175,20 @@
             </RadioGroup>
 
             <RadioGroup
+                android:id="@+id/second_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/type3"
                     android:layout_width="57dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1056964608.000000"
                     android:text="@string/Katolik" />
 
                 <RadioButton
+                    android:id="@+id/type4"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1056964608.000000"
@@ -186,17 +196,20 @@
             </RadioGroup>
 
             <RadioGroup
+                android:id="@+id/third_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/type5"
                     android:layout_width="85dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1056964608.000000"
                     android:text="@string/Budha" />
 
                 <RadioButton
+                    android:id="@+id/type6"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1056964608.000000"
@@ -204,11 +217,13 @@
             </RadioGroup>
 
             <RadioGroup
+                android:id="@+id/fourth_group"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
                 <RadioButton
+                    android:id="@+id/type7"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1056964608.000000"
